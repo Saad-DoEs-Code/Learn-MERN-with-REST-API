@@ -1,3 +1,5 @@
+/* General Tag Selectors */
+
 body{
     background-color: ghostwhite;
 }
@@ -7,6 +9,12 @@ h1{
     font-size: 36px;
 }
 
+img{
+    height: 400px;
+    width: 400px;
+}
+
+/* Class Selectors */
 .monster-happy{
     background-color: palegreen;
 }
@@ -15,7 +23,19 @@ h1{
     background-color: yellow;
 }
 
-img{
-    height: 400px;
-    width: 400px;
+.circular{
+    border-radius: 100%;
+
+}
+
+/* Pseudo Classes */
+img:hover{
+    background-color: gold;
+}
+
+
+/* ID Selectors */
+#heading{
+    font-size: 100px;
+    color: cornflowerblue;
 }
