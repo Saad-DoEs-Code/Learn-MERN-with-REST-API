@@ -9,17 +9,24 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
+  /* Easiest way to center the data of our website is using text-align property. This only works if we have inline-block elements or full width elements. It aligns everything taht doesn't have a width. If something has a width, we center it using margin, i.e. as done in h1 {} block here */
+  text-align:center;
+
 }
 
 h1 {
-  font-size: 76px;
-  margin-top: 0%;
+  font-size: 48px;
+  /* width: 25%; */
+  /* margin-top: 0%; */
+  margin: 0 auto;
 }
+
 
 /* CSS Styling for Classes */
 
 .section {
     background-color: #dcf2f1;
+    /* background-color: #333; */
     height: 100vh;
     width: 100%;
   }
@@ -30,16 +37,36 @@ h1 {
         padding: 100px 20px;
         display: inline-block;
     }
+
+  .cloud-img{
+    width: 20%;
+    height: 10%;
+  }
 /* CSS Styling for IDs */
 
 #intro-content {
     margin-top: 0;
     text-align: center;
     position: relative;
-    top: 40%;
+    top: 30%;
     transform: translateY(-50%);
+    z-index: 1;
   }
 
-  
+#left-cloud-img{
+  position: absolute;
+  left: 17%;
+  top: 35%;
+}
+#right-cloud-img{
+  position: absolute;
+  right: 17%;
+  top: 15%;
+}
+#mountain-img{
+  position: relative;
+  height: 80%;
+  width: 60%;
+}
 
 
