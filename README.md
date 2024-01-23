@@ -11,3 +11,5 @@
             $ Embedded Fonts: To prevent self precieved fonts, we embed fonts using links. i.e: Google Fonts.
 
 # Day-22: Did nothing due to work overload. Worked on Game Development Project (Horror Survival)
+
+# Day-23: Did nothing due to work overload
