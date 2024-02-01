@@ -19,4 +19,5 @@
 # Day-27: Understood the difference between Relative and Absolute Positioning in CSS
 # Day-28: Learnt CSS Sizing(Font-Size Property: em vs rem vs px)
 # Day-29: Did Nothing due to busy schedule
-# Daay-30: Did Nothing due to a tour to swat
+# Day-30: Did Nothing due to a tour to swat
+# Day-31: Did Nothing due to a tour to swat
